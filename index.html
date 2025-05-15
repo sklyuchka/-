@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Подорож Україною</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header><h1>Подорож Україною</h1>
+    <nav><ul>
+      <li><a href="index.html" class="active">Головна</a></li>
+      <li><a href="regions.html">Регіони</a></li>
+      <li><a href="places.html">Цікаві місця</a></li>
+      <li><a href="media.html">Медіа</a></li>
+      <li><a href="contact.html">Зв'язок</a></li>
+    </ul></nav>
+  </header>
+  <main>
+    <h2 id="greeting">Ласкаво просимо!</h2>
+    <p>Вітаємо на сайті «Подорож Україною» — дізнайтеся більше про наші найцікавіші місця!</p>
+
+    <img src="images/ukraine-map.png" usemap="#ukrmap" alt="Карта України" style="width:100%;max-width:600px;">
+    <map name="ukrmap">
+      <area shape="rect" coords="100,100,200,200" href="regions.html" alt="Центр України">
+      <area shape="rect" coords="250,100,350,200" href="places.html" alt="Цікаві місця">
+    </map>
+
+    <img src="images/animated.gif" alt="Анімація" style="margin-top:20px;">
+    <button onclick="scrollToTop()">⬆ До верху</button>
+  </main>
+  <footer><p>&copy; 2025 Подорож Україною</p></footer>
+
+<h2>Карпати</h2>
+<img src="images/karpaty.jpg" alt="Карпати" width="400">
+
+<h2>Кам'янець</h2>
+<img src="images/kamenec.jpg" alt="Кам'янець" width="400">
+
+<h2>Лавра</h2>
+<img src="images/lavra.jpg" alt="Лавра" width="400">
+
+<h2>Карта України</h2>
+<img src="images/ukraine-map.png" alt="Карта України" width="400">
+
+</body>
+</html>
